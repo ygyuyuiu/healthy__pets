@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Koala</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cormorant+Infant&family=Fira+Sans:wght@400;500;600;700;800;900&family=Kanit&family=Lato:wght@900&family=Noto+Sans+Symbols&family=Noto+Sans:ital@0;1&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<base href="#" target="_blank" />
+	</head>
+	<body>
+		<header class="header" id="header">
+			<div class="container header__container">
+				<div class="heder__nav">
+					<div class="header__logo">
+						<a href="#header" class="header__home"
+							><img src="img/logo.svg" alt="header logo company"
+						/></a>
+					</div>
+					<div class="header__search">
+						<a href="#" class="header__btn" type="button">
+							Search for products
+						</a>
+					</div>
+					<ul class="header__list">
+						<li class="header__list-item">
+							<a href="" class="header__link">How It Works</a>
+						</li>
+						<li class="header__list-item">
+							<a href="" class="header__link">Sign In</a>
+						</li>
+						<li class="header__list-item">
+							<a href="" class="header__link">Blog</a>
+						</li>
+					</ul>
+				</div>
+				<section class="header-promo">
+					<div class="header-promo__title">
+						<h1 class="header-promo__heading">Pet medication made easy.</h1>
+						<p class="header-promo__text">
+							Koala has all the medications and health products your pet needs.
+							We package them by date and time to make pet care simpler. The
+							best part? There are no service or shipping fees — you only pay
+							for what your pet needs.
+						</p>
+					</div>
+				</section>
+			</div>
+		</header>
+
+		<section class="video">
+			<div class="container video__container">
+				<video
+					class="video__controller"
+					src="./video/pet.mp4"
+					autoplay
+					muted
+					loop
+				>
+					<source src="video/pet.mp4" type="video/webm" />
+					<source src="video/pet.mp4.ogg" type="video/ogg" />
+				</video>
+				<div class="video__box">
+					<h2 class="video__heading">Our Luimites</h2>
+					<p class="video__text">
+						Veterinary medicine plays a critical role in the health and welfare
+						of animals. Medications for animals are designed to treat various
+						conditions and illnesses they may face. These pharmaceuticals are
+						carefully formulated to meet the specific needs of different animal
+						species.
+					</p>
+					<a class="video__btn" href="#">Help us</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="obligation">
+			<div class="container obligation__container">
+				<div class="obligation__box">
+					<h2 class="obligation__heading">
+						All their meds, sorted and delivered. We will:
+					</h2>
+					<div class="obligation__link-wrapper">
+						<label for="obligation__link-1" class="obligation__label-1"
+							><a
+								href=""
+								class="obligation__link"
+								target="_blank"
+								id="obligation__link-1"
+								>Verify & fetch</a
+							></label
+						>
+					</div>
+					<div class="obligation__link-wrapper">
+						<label for="obligation__link-2" class="obligation__label-2"
+							><a
+								href=""
+								class="obligation__link"
+								target="_blank"
+								id="obligation__link-2"
+								>Sort & package</a
+							></label
+						>
+					</div>
+					<div class="obligation__link-wrapper">
+						<label for="obligation__link-3" class="obligation__label-3"
+							><a
+								href=""
+								class="obligation__link"
+								target="_blank"
+								id="obligation__link-3"
+								>Deliver and refill</a
+							></label
+						>
+					</div>
+					<div class="obligation__link-wrapper">
+						<a href="" class="obligation__link-last" target="_blank"
+							>See how it works</a
+						>
+					</div>
+				</div>
+				<div class="obligation__box-img">
+					<img class="obligation__img" src="img/pilles.png" alt="pilles" />
+				</div>
+			</div>
+		</section>
+
+    <section class="scroll">
+      <div class="container scroll__container">
+        <span class="scroll__bottom-text">Get started.</span>
+      </div>
+    </section>
+
+    <section class="product">
+      <div class="container product__container">
+        <div class="product__heading-box">
+          <h2 class="product__heading">Shop trusted products.</h2>
+          <small class="product__caption-text">Vet-approved meds, supplements and health products. Sorted and delivered for free.</small>
+          <button class="product__link" type="="button"><span class="product__span">Show all products</span></button>
+        </div>
+
+        <div class="product__card-wrapper">
+          <div class="product__card">
+            <div class="product__img">
+              <a href=""><img src="img/tab-1.png" alt="product-1" /></a>
+            </div>
+            <h3 class="product__title"><a class="product__title-link" href="">Simparica TRIO for Dogs</a></h3>
+            <div class="product__span-wrapper">
+              <span class="product__disease">Heartworm</span>
+              <span class="product__disease">Flea & Tick</span>
+              <span class="product__disease">Dewormers & Parasiticides</span>
+            </div>
+            <p class="product__text">A monthly oral medication that prevents heartworm disease, treats and controls certain intestinal parasites, and prevents and treats flea and tick infestations.</p>
+          <span class="product__caption">This item requires a prescription</span>
+        </div>
+
+        <div class="product__card">
+            <div class="product__img">
+              <a href=""><img src="img/tab-2.png" alt="product-2" /></a>
+            </div>
+            <h3 class="product__title"><a class="product__title-link" href="">Apoquel</a></h3>
+            <div class="product__span-wrapper">
+              <span class="product__disease">Apoquel's categories are</span>
+            </div>
+            <p class="product__text">Oclacitinib (Apoquel) is used to relieve itching due to a variety of causes including allergy.</p>
+            <span class="product__caption">This item requires a prescription</span>
+        </div>
+
+         <div class="product__card">
+            <a href=""><div class="product__img">
+              <img src="img/tab-3.png" alt="product-3" /></a>
+            </div>
+            <h3 class="product__title"><a class="product__title-link" href="">Rimadyl</a></h3>
+            <div class="product__span-wrapper">
+              <span class="product__disease">Rimadyl's categories are</span>
+            </div>
+            <p class="product__text">Carprofen (Rimadyl) is a non-steroidal anti-inflammatory drug (NSAID) used to treat arthritic and post-operative pain and inflammation.</p>
+          <span class="product__caption">This item requires a prescription</span>
+        </div>
+
+        <div class="product__card">
+            <div class="product__img">
+              <a href=""><img src="img/tab-4.png" alt="product-4" /></a>
+            </div>
+            <h3 class="product__title"><a class="product__title-link" href="">Purina Pro Plan FortiFlora Probiotic</a></h3>
+            <div class="product__span-wrapper">
+              <span class="product__disease">Vitamins & Supplements</span>
+            </div>
+            <p class="product__text">Probiotics supply "good" bacteria to the gut and promote overall digestive health.</p>
+          <span class="product__caption">This item requires a prescription</span>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="community">
+      <div class="container community__container">
+        <div class="community__wrapper">
+          <div class="community__top-box">
+            <div class="community__item community__item_ml">
+              <img class="community__img" src="img/com-1.png" alt="dog Josie">
+              <a class="community__link" href="#"><span class="community__span"></span>ViewJosie's care box</a>
+            </div>
+            <div class="community__item community__item_mr">
+              <img class="community__img" src="img/com-2.png" alt="dog Elijah">
+              <a class="community__link" href="#"><span class="community__span"></span>View Elijah's care box</a>
+            </div>
+          </div>
+
+           <div class="community__bottom-box">
+            <div class="community__item community__item_ml ">
+              <img class="community__img" src="img/com-3.png" alt="cat Waffles">
+              <a class="community__link" href="#"><span class="community__span"></span>View Waffles's care box</a>
+            </div>
+            <div class="community__item community__item_mr">
+              <img class="community__img" src="img/com-4.png" alt="dog Liliana">
+              <a class="community__link" href="#"><span class="community__span"></span>View Liliana's care box</a>
+            </div>
+          </div>
+        </div>
+        <div class="community__heading-box">
+          <h2 class="community__heading">Join our community of happy pets.</h2>
+          <button class="product__link product__link_bg" type="="button"><span class="product__span">Shop for your pet</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="pets">
+      <div class="container pets__container">
+        <div class="pets__heading-box">
+          <h2 class="pets__heading">Meet our pets.</h2>
+        </div>
+          <div class="pets__wrapper">
+            <div class="pets__item pets__item-1">
+              <img src="img/humanANDdog.jpg" alt="cat and human image" class="pets__img">
+            </div>
+            <div class="pets__item pets__item-2">
+              <img src="img/hend.jpg" alt="cat and dog image" class="pets__img">
+            </div>
+            <div class="pets__item pets__item-3">
+              <img src="img/sitcat.jpg" alt=" cat image" class="pets__img">
+            </div>
+            <div class="pets__item pets__item-4">
+              <img src="img/twodog.jpg" alt=" two dogs" class="pets__img">
+            </div>
+            <div class="pets__item pets__item-5">
+              <img src="img/chaircat.jpg" alt=" cat on chair image" class="pets__img">
+            </div>
+            <div class="pets__item pets__item-6">
+              <img src="img/littledog.jpg" alt="little dog image" class="pets__img">
+            </div>
+						<div class="pets__item pets__item-7">
+              <img src="img/friends.jpg" alt="little dog image" class="pets__img">
+            </div>
+						<div class="pets__item pets__item-8">
+              <img src="img/pudel.jpg" alt="little dog image" class="pets__img">
+            </div>
+						<div class="pets__item pets__item-9">
+              <img src="img/chel.jpg" alt="little dog image" class="pets__img">
+            </div>
+          </div>
+      </div>
+    </section>
+
+		<section class="state">
+			<div class="container state__container">
+				<div class="state__wrapper">
+					<h2 class="state__heading">Coming soon to your state.</h2>
+					<p class="state__text">
+						Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, and Wyoming
+					</p>
+					<span class="state__span">Sign up to be notified when we’re in your area.</span>
+					<a href="#" class="state__link">Notify Me</a>
+					<img src="img/country.png" alt="country image" class="state__img">
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container footer__container">
+				<div class="footer__contact">
+					<ul class="footer__list">
+						<li class="footer__list-item"><a href="#" class="footer__link">Contact</a></li>
+						<li class="footer__list-item"><a href="mailto:hello@koala.health" class="footer__link">hello@koala.health</a></li>
+						<li class="footer__list-item"><a href="tell:8664456252" class="footer__link">(866) 445-6252</a></li>
+					</ul>
+					<ul class="footer__list">
+						<li class="footer__list-item"><a href="#" class="footer__link">Company</a></li>
+						<li class="footer__list-item"><a href="#" class="footer__link">How It Works</a></li>
+						<li class="footer__list-item"><a href="#" class="footer__link">Careers</a></li>
+						<li class="footer__list-item"><a href="#" class="footer__link">FAQ</a></li>
+					</ul>
+					<ul class="footer__list">
+						<li class="footer__list-item"><a href="#" class="footer__link">Legal</a></li>
+						<li class="footer__list-item"><a href="#" class="footer__link">Terms of Use</a></li>
+						<li class="footer__list-item"><a href="#" class="footer__link">Privacy Notice</a></li>
+						<li class="footer__list-item"><a href="#" class="footer__link">Auto-Refill Terms of Use</a></li>
+						<li class="footer__list-item"><a href="#" class="footer__link">Billing and Returns Policy</a></li>
+						<li class="footer__list-item"><a href="#" class="footer__link">State Notices</a></li>
+					</ul>
+				<address class="footer__address">
+					<pre>
+						179 South Street
+						Suite 100
+						Boston,MA <span class="footer__span">02111</span> 
+					</pre>
+				</address>
+				</div>
+				<div class="footer__image-box">
+					<div class="footer__social">
+						<div class="footer__social-img"><a href="" class="footer__link"><img src="img/inst.svg" alt="instagram image"></a></div>
+						<div class="footer__social-img"><a href="" class="footer__link"><img src="img/facebook.svg" alt="facebook image"></a></div>
+						<div class="footer__social-img"><a href="" class="footer__link"><img src="img/twitter.svg" alt="twitter image"></a></div>
+						<div class="footer__social-img"><a href="" class="footer__link"><img src="img/in.svg" alt="in image"></a></div>
+					</div>
+					<div class="footer__mark">
+						<img src="img/mark.svg" alt="" class="footer__mark-img">
+					</div>
+					<div class="footer__logo">
+						<a href="#header" class="footer__link"><img class="footer__logo-img" src="img/footer-coalla.svg" alt="logo image" ></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
